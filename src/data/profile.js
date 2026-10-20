@@ -2,7 +2,7 @@ const profile = {
   name: "Benjamin Appiah",
   title: "Information Technology Student & Software Developer",
   tagline: "I build, maintain and scale software solutions for companies of all categories",
-  photo: "/profile.png",
+  photo: "/profile2.jpg",
   about: "I am an Information Technology student with some experience in Software Development, building and maintaining software solutions for comanies and individual clients. I have experience in other fields like Data Science, Data Analytics, and CyberSecurity.",
   location: "Accra, Ghana",
   email: "ben.appiah451@gmail.com",
@@ -32,7 +32,10 @@ const profile = {
 
   socials: [
     {
-      label: 'Github', url: https://github.com/Molecule-Cloud.git
+      label: 'Github', url: 'https://github.com/Molecule-Cloud.git'
     }
   ]
 }
+
+export default profile;
+
