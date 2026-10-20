@@ -8,6 +8,7 @@ function Hero({ profile }) {
       <div className="hero-buttons">
         <a href="#projects" className="btn">View My Work</a>
         <a href="#contacts" className="btn btn-outline">Contact Me</a>
+        <a href="/cv.pdf" download="resume.pdf" className="btn btn-outline">Download CV</a>
       </div>
     </section>
   );
