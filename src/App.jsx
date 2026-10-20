@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Education from './components/Education'
 
 function App() {
   const [theme, setTheme] = useState(
@@ -33,6 +34,7 @@ function App() {
         <Hero profile={profile} />
         <About profile={profile} />
         <Skills skills={profile.skills} />
+        <Education education={profile.education} />  
         <Projects projects={profile.projects} />
         <Contact email={profile.email} />
       </main>

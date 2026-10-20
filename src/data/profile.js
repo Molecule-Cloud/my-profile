@@ -2,7 +2,7 @@ const profile = {
   name: "Benjamin Appiah",
   title: "Information Technology Student & Software Developer",
   tagline: "I build, maintain and scale software solutions for companies of all categories",
-  photo: "/profile2.jpg",
+  photo: "/profile.jpg",
   about: "I am an Information Technology student with some experience in Software Development, building and maintaining software solutions for comanies and individual clients. I have experience in other fields like Data Science, Data Analytics, and CyberSecurity.",
   location: "Accra, Ghana",
   email: "ben.appiah451@gmail.com",
@@ -26,15 +26,30 @@ const profile = {
       title: "Library Booking System",
       description: "Lets students reserve study rooms in the library",
       tech: ["React", "CSS"],
-      link: "https://github.com/your-username/library-booking",
+      link: "https://github.com/Molecule-Cloud/library-booking",
     },
   ],
 
   socials: [
     {
-      label: 'Github', url: 'https://github.com/Molecule-Cloud.git'
+      label: 'Github', url: 'https://github.com/Molecule-Cloud'
     }
-  ]
+  ],
+
+  education: [
+    {
+      school: 'BlueCrest University College',
+      program: 'BSc Information Technology',
+      period: '2025 – present',
+      note: 'Level 200 · Advanced Web Technologies',
+    },
+    {
+      school: 'OpenLabs IT College',
+      program: 'Diploma in Software Development',
+      period: '2023 – 2024',
+      note: 'Graduated with distinction',
+    },
+  ],
 }
 
 export default profile;
